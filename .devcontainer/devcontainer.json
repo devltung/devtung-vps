@@ -1,0 +1,10 @@
+{
+  "name": "GUI Linux Desktop",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "postCreateCommand": "bash setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  }
+}
